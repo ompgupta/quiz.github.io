@@ -1,0 +1,107 @@
+@media screen and (max-width:480px) {
+    body{
+        font-size: 1rem;
+    }
+    .nav-logo{
+    margin-left: -4rem;
+    }
+    .fa-bars{
+        display: inline;
+        margin-left: 10rem;
+        color: rgb(153, 153, 153);
+        border: 1px solid rgb(219, 219, 219);
+        padding: 0.4rem 0.7rem;
+    }
+   .nav-menu{
+        width: 100%;
+        position: fixed;
+        height: 70vh;
+       background-color: rgb(241, 241, 241);
+       position: absolute;
+        top: 7%;
+        left:-100%;
+       display: block;
+       z-index:999;
+       padding: 1rem 2rem;
+    }
+    .nav-item {
+        padding: 0.3rem 0;
+        text-align: center;
+    }
+    .category{
+        min-width:100%;
+        min-height: 50vh; 
+        left: 0;
+    }
+    .category li{
+        text-align: left;
+    }
+    .category h4{
+        text-align: left;
+    }
+    .create-menu{
+        min-width: 45%;
+        min-height:20vh;
+        left: 35%;
+    }
+    .create-menu li{
+      text-align: left;
+    }
+    /* **************** */
+    h1{
+        margin-left: 0rem; 
+        font-size: 2rem;
+        text-align: center;
+      }
+    .container1{
+    width: 100%;
+      padding:0 0.3rem;
+      position: relative;
+      margin: 0;
+    }
+    .cards_item{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin: 1.1rem;
+      padding-bottom: 1rem;
+    }
+    .img-div{
+        position: relative;
+    }
+    .cards_item p{
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    .cards_item p span{
+        padding:0 1rem 0 1rem;
+        color: gray;
+    }
+    .cards_item .social-link{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .cards_item .social-link i{
+        color: gray;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+     .social-link i span{
+         font-weight: 100;
+         margin-left: 5px;
+         font-size: 0.8rem;
+     }
+     /* ++++++++++ Women Quiz Section End +++++++++ */
+    .container2{
+        width: 25%;
+        height: 100vh;
+        /* background: rgb(255, 0, 255); */
+      display: flex;
+      flex-wrap: wrap;
+      right: 0;
+      top: 15%;
+      position: relative;
+      margin-right: 6rem;
+    }
+}

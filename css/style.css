@@ -1,0 +1,348 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-weight: 400;
+}
+body{
+    background: rgba(235, 235, 235, 0.651);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    min-width: 100%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 0.5rem 6rem;
+    background-color: rgb(236, 236, 236);
+    color: rgb(197, 197, 197);
+}
+.nav-menu {
+    display: flex;
+  padding: 0 3rem 0 13rem;
+  /* background: salmon; */
+}
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-link{
+    font-size: 17px;
+    color: #475569;
+    
+}
+.nav-link:hover{
+    color: black;
+    transition: 0.2s;
+}
+.nav-login{
+  padding:0 1rem;
+  font-size: 1rem;
+ 
+}
+.sign{
+    font-weight: 700; 
+    color:grey;
+    padding: 0;
+     margin-left: 8rem;
+}
+.sign:hover{
+    color: black;
+}
+.category{
+    min-width:25%;
+    min-height: 70vh; 
+     position: absolute;
+    z-index: 99999;
+     background-color: rgb(240, 240, 240); 
+     box-shadow: 0px 5px 10px rgba(116, 116, 116, 0.76);
+    padding: 1rem 2rem;
+    display: none;
+}
+.category_menu{  
+    display: flex;
+    justify-content: space-between;
+}
+.category li{
+    padding: 0.2rem 2.5rem 0.2rem 0;
+}
+.category li:hover, .create-menu li:hover{
+    background-color: rgb(199, 199, 199);
+    transition: 0.5s;
+}
+.category h4{
+    color: black;
+    line-height: 3;
+}
+#category:hover .category{ 
+    display: block;
+}
+.create-menu{
+    position: absolute;
+    min-width: 12%;
+    min-height:25vh;
+    z-index: 99999;
+    background-color: rgb(240, 240, 240); 
+   box-shadow: 0px 5px 10px rgba(116, 116, 116, 0.76);
+   padding: 1rem;
+   display: none;
+}
+.create-menu li{
+    padding: 0.3rem 0;
+    font-size: 1rem;
+}
+#create-menu:hover .create-menu{
+    display: block;
+}
+#check{
+    display: none;
+}
+#check:checked ~ ul{
+    left: 0%;
+     transition: 0.5s all ease;
+}
+/* ++++++++++ Women Quiz Section +++++++++ */
+h1{
+  margin-left: 15rem; 
+  line-height: 2;
+  font-size: 2.3rem;
+  font-weight: 100;
+}
+.container1{
+    width: 60%;
+    height: auto;
+    background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+  position: absolute;
+}
+
+.cards_item{
+    width: 45%;
+    height: 56vh;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.39);
+}
+.img-div{
+    position: relative;
+}
+.cards_item img{
+    width: 100%;
+    height: 35vh;
+    /* position: relative; */
+}
+.img-div::before{
+    content: 'Quiz';
+    position: absolute;
+    width: 15% !important;
+    height: 4vh;
+    top:4%;
+    right: 2%;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5;
+    background-color: rgb(0, 128, 32);
+    opacity: 0.8;
+}
+.img-div::after{
+    content: '1 month ago';
+    position: absolute;
+    width: 30% !important;
+    height: 4vh;
+    bottom:1.5%;
+    left: 2%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.5;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+.img-div_1::after{
+    content: '2 month ago';
+}
+.img-div_2::after{
+    content: '4 month ago';
+}
+.img-div_3::after{
+    content: '6 month ago';
+}
+.cards_item p{
+    text-align: center;
+    padding: 1rem 1rem;
+}
+.cards_item p span{
+    padding:0 1rem 0 1rem;
+    color: gray;
+}
+.cards_item .social-link{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+.cards_item .social-link i{
+    color: gray;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+ .social-link i span{
+     font-weight: 100;
+     margin-left: 5px;
+     font-size: 0.8rem;
+ }
+ /* ++++++++++ Women Quiz Section End +++++++++ */
+.container2{
+    width: 25%;
+    height: 100vh;
+    /* background: rgb(255, 0, 255); */
+  display: flex;
+  flex-wrap: wrap;
+  right: 0;
+  top: 15%;
+  position: absolute;
+  margin-right: 6rem;
+}
+.all_section{
+ min-width: 90%;
+  height: 35vh;
+  background-color: white;
+  text-align: center;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.39);
+}
+.all_section li{
+    border: 0.5px solid rgb(185, 185, 185);
+    padding: 0.6rem;
+}
+.all_section li a{
+    font-size: 1.3rem;
+}
+.all-btn{
+    margin-top: 3rem;
+    width: 90%;
+    height: 39vh;
+    overflow: hidden;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.39);
+}
+.all-btn .btn{
+    width: auto;
+    padding:0.4rem 0.89rem;
+    font-size: 1rem;
+    margin-right: -5px;
+    margin-bottom: -3px;
+    background: white;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(228, 228, 228) ;
+}
+.all-btn .btn:hover{
+    background-color: rgba(128, 128, 128, 0.116);
+    transition: 0.2s;
+}
+.btn_1{
+    padding:0.4rem 0.81rem !important;
+}
+.btn_2{
+    padding:0.4rem 0.72rem !important;
+}
+.btn_3{
+    padding:0.4rem 1rem !important;
+}
+.btn_4{
+    padding:0.4rem 1.09rem !important;
+}
+.btn_5{
+    padding:0.4rem 1.15rem !important;
+}
+.btn_6{
+    padding:0.4rem 1.25rem !important;
+}
+.top-quiz{
+    position: relative;
+    width: 90%;
+    height: 49vh;
+    top: 3rem;
+    text-align: center;
+    position: relative;
+}
+.top-quiz-card{
+    margin: 0.5rem 0;
+width: 100%;
+height: 15.5vh;
+background-color: rgb(255, 255, 255);
+display: flex;
+box-shadow: 2px 0 5px rgba(0, 0, 0, 0.39);
+}
+.top-quiz-img{
+    width: 50%;
+}
+.top-quiz-para{
+    width: 50%;
+    text-align: left;
+    padding: 10px 8px;
+}
+.top-quiz-card img{
+    width: 100%;
+    height:auto;
+}
+.all-btn_2{
+   position: relative;
+   top:4rem;
+   box-shadow: none;
+}
+.all-btn_2 .btn{
+  text-transform: capitalize;
+}
+.btn-1{ 
+   padding:0.4rem 0.5rem !important;
+}
+.btn-2{ 
+    padding:0.4rem 0.8rem !important;
+ }
+ .btn-3{ 
+    padding:0.4rem 0.48rem !important;
+ }
+ .btn-4{ 
+    padding:0.4rem 1.15rem !important;
+ }
+ .btn-5{ 
+    padding:0.4rem 1.6rem !important;
+ }
+
+.create-btn{
+    width: 78%;
+    text-align: center;
+    position: relative;
+    margin:4rem;
+}
+.create-btn button{
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+     background: rgb(14, 216, 25);
+     border: none;
+  font-weight: 600;
+}
+.create-btn button:hover{
+    background: rgb(0, 145, 8);  
+    transition: 0.2s;
+}
+.all-btn_3{
+    margin: 0;
+    box-shadow: none;
+}
