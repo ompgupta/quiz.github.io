@@ -185,11 +185,12 @@ footer{
         font-size: 1rem;
     }
     .category{
-        max-height:38vh; 
+        /* max-height:38vh;  */
+        height: auto;
     }
     .create-menu{
-        width: 20%;
-        height:15vh; 
+        width: 15%;
+        height:auto; 
     }
     .nav-logo{
     margin-left: 3rem;
