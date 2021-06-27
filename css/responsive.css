@@ -198,7 +198,6 @@ footer{
       margin-left: 6rem;
     }
     .nav-item {
-        background-color: tomato;
         margin-left: 2rem;
     }
     .nav-link{
@@ -210,103 +209,88 @@ footer{
          margin-left: 4rem;
     }
 
-    /* **************** */
+    /* ********* woman quiz start******* */
     h1{
         margin-left: 0rem; 
-        font-size: 2rem;
-        text-align: center;
+        font-size: 2.2rem;
+        text-align: left; margin-left: 17rem;
       }
       .row-container{
         width: 100%;
         position: relative;
         height: auto;
+     
     }
     .container1{
         width: 70%;
-        height: auto;
-        background: transparent;
-      display: flex;
-      flex-wrap: wrap;
       margin-left: 1rem;
-      position: absolute;
-      margin-bottom: 4rem;
-      background-color: teal;
     }
     
     .cards_item{
         width: 45%;
-        height: 56vh;
-        background-color: rgb(255, 255, 255);
-        margin: 1rem;
-        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.39);
-    }
-    .img-div{
-        position: relative;
+        max-height: 25.5vh;
     }
     .cards_item img{
         width: 100%;
-        height: 35vh;
-        /* position: relative; */
+        height: auto;
     }
     .img-div::before{
-        content: 'Quiz';
-        position: absolute;
-        width: 15% !important;
-        height: 4vh;
-        top:4%;
-        right: 2%;
-        color: white;
-        font-weight: 600;
-        text-align: center;
-        line-height: 1.5;
-        background-color: rgb(0, 128, 32);
-        opacity: 0.8;
+        height: 2vh;
     }
     .img-div::after{
-        content: '1 month ago';
-        position: absolute;
-        width: 30% !important;
-        height: 4vh;
-        bottom:1.5%;
-        left: 2%;
-        color: rgb(0, 0, 0);
-        font-weight: 600;
-        text-align: center;
-        line-height: 1.5;
-        background-color: rgb(255, 255, 255);
-        opacity: 0.6;
+        height: 2vh;
+        top:1.5%;
     }
-    .img-div_1::after{
-        content: '2 month ago';
-    }
-    .img-div_2::after{
-        content: '4 month ago';
-    }
-    .img-div_3::after{
-        content: '6 month ago';
-    }
-    .cards_item p{
-        text-align: center;
-        padding: 1rem 1rem;
-    }
-    .cards_item p span{
-        padding:0 1rem 0 1rem;
-        color: gray;
-    }
-    .cards_item .social-link{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 0.8rem;
-    }
-    .cards_item .social-link i{
-        color: gray;
-        font-weight: 600;
-        font-size: 0.8rem;
-    }
-     .social-link i span{
-         font-weight: 100;
-         margin-left: 5px;
-         font-size: 0.8rem;
-     }
+     /* ++++++++++ Women Quiz Section End +++++++++ */
+.container2{
+    width: 25%;
+    height: 100vh;
+  margin-right: 0rem;
+}
+.all_section{
+ min-width: 90%;
+  height: auto;
+}
+.all-btn{
+    height: auto;
+    overflow-x: hidden;
+}
+.top-quiz{
+    min-height: auto; 
+}
+.top-quiz-card{
+margin: 0.7rem 0;
+width: 100%;
+height: auto;
+}
+.create-btn{
+    margin:9rem 0 3rem 0; 
+}
+/* *********************footer :start********************** */
+footer{
+    width: 100%;
+    min-height: 10vh;
+    position: absolute;
+ bottom: -240%;
+    /* background-color: aquamarine; */
+}
+.footer_conatiner{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 1rem 0;
+    border-top: 0.5px solid rgb(207, 207, 207);
+    text-align: center; 
+}
+.footer_link .link{
+    padding:0 0.8rem;
+    border-right: 1px solid grey;
+}
+.footer_conatiner a{
+    color: blue;
+}
+.footer_conatiner a:hover{
+    color: black;
+    text-decoration: underline !important;
+}
     }
