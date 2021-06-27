@@ -184,6 +184,13 @@ footer{
     body{
         font-size: 1rem;
     }
+    .category{
+        min-height: 30vh; 
+    }
+    .create-menu{
+        min-width: 20%;
+        min-height:15vh; 
+    }
     .nav-logo{
     margin-left: 3rem;
     }
