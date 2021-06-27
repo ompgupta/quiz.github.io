@@ -228,17 +228,17 @@ footer{
     
     .cards_item{
         width: 45%;
-        max-height: 25.5vh;
+        height: auto;
     }
     .cards_item img{
         width: 100%;
         height: auto;
     }
     .img-div::before{
-        height: 2vh;
+        height: 1.8vh;
     }
     .img-div::after{
-        height: 2vh;
+        height: 1.8vh;
         top:1.5%;
     }
      /* ++++++++++ Women Quiz Section End +++++++++ */
@@ -271,26 +271,7 @@ footer{
     width: 100%;
     min-height: 10vh;
     position: absolute;
- bottom: -240%;
+ bottom: -250%;
     /* background-color: aquamarine; */
-}
-.footer_conatiner{
-    width: 50%;
-    height: auto;
-    margin: auto;
-    padding: 1rem 0;
-    border-top: 0.5px solid rgb(207, 207, 207);
-    text-align: center; 
-}
-.footer_link .link{
-    padding:0 0.8rem;
-    border-right: 1px solid grey;
-}
-.footer_conatiner a{
-    color: blue;
-}
-.footer_conatiner a:hover{
-    color: black;
-    text-decoration: underline !important;
-}
     }
+}
