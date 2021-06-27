@@ -65,7 +65,7 @@ a {
 }
 .category{
     min-width:25%;
-    min-height: 70vh; 
+    height: 73vh; 
      position: absolute;
     z-index: 99999;
      background-color: rgb(240, 240, 240); 
@@ -94,7 +94,7 @@ a {
 .create-menu{
     position: absolute;
     min-width: 12%;
-    min-height:25vh;
+    height:25vh;
     z-index: 99999;
     background-color: rgb(240, 240, 240); 
    box-shadow: 0px 5px 10px rgba(116, 116, 116, 0.76);

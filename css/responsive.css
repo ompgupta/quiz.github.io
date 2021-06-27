@@ -30,7 +30,7 @@
     }
     .category{
         min-width:100%;
-        min-height: 50vh; 
+        height: auto; 
         left: 0;
     }
     .category li{
@@ -185,11 +185,11 @@ footer{
         font-size: 1rem;
     }
     .category{
-        min-height: 30vh; 
+        max-height:38vh; 
     }
     .create-menu{
-        min-width: 20%;
-        min-height:15vh; 
+        width: 20%;
+        height:15vh; 
     }
     .nav-logo{
     margin-left: 3rem;
