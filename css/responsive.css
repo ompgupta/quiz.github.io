@@ -228,7 +228,7 @@ footer{
     
     .cards_item{
         width: 45%;
-        height: auto;
+        height: 25.5vh;
     }
     .cards_item img{
         width: 100%;
