@@ -17,6 +17,7 @@ a {
     text-decoration: none;
     color: black;
 }
+/* *****************.navbar start******************** */
 .header{
     border-bottom: 1px solid #E2E8F0;
 }
@@ -110,11 +111,19 @@ a {
 #check{
     display: none;
 }
+.fa-bars{
+    display: none !important; 
+}
 #check:checked ~ ul{
     left: 0%;
      transition: 0.5s all ease;
 }
 /* ++++++++++ Women Quiz Section +++++++++ */
+.row-container{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
 h1{
   margin-left: 15rem; 
   line-height: 2;
@@ -129,6 +138,7 @@ h1{
   flex-wrap: wrap;
   margin-left: 5rem;
   position: absolute;
+  margin-bottom: 4rem;
 }
 
 .cards_item{
@@ -211,11 +221,10 @@ h1{
 .container2{
     width: 25%;
     height: 100vh;
-    /* background: rgb(255, 0, 255); */
   display: flex;
   flex-wrap: wrap;
   right: 0;
-  top: 15%;
+  top: 50%;
   position: absolute;
   margin-right: 6rem;
 }
@@ -276,7 +285,7 @@ h1{
 .top-quiz{
     position: relative;
     width: 90%;
-    height: 49vh;
+    min-height: 49vh;
     top: 3rem;
     text-align: center;
     position: relative;
@@ -345,4 +354,32 @@ box-shadow: 2px 0 5px rgba(0, 0, 0, 0.39);
 .all-btn_3{
     margin: 0;
     box-shadow: none;
+}
+
+/* *********************footer :start********************** */
+footer{
+    width: 100%;
+    min-height: 10vh;
+    position: absolute;
+ bottom: -620%;
+    /* background-color: aquamarine; */
+}
+.footer_conatiner{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 1rem 0;
+    border-top: 0.5px solid rgb(207, 207, 207);
+    text-align: center; 
+}
+.footer_link .link{
+    padding:0 0.8rem;
+    border-right: 1px solid grey;
+}
+.footer_conatiner a{
+    color: blue;
+}
+.footer_conatiner a:hover{
+    color: black;
+    text-decoration: underline !important;
 }

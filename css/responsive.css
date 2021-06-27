@@ -6,7 +6,7 @@
     margin-left: -4rem;
     }
     .fa-bars{
-        display: inline;
+        display: block !important;
         margin-left: 10rem;
         color: rgb(153, 153, 153);
         border: 1px solid rgb(219, 219, 219);
@@ -63,45 +63,280 @@
         width: 100%;
         background-color: rgb(255, 255, 255);
         margin: 1.1rem;
-      padding-bottom: 1rem;
-    }
-    .img-div{
-        position: relative;
-    }
-    .cards_item p{
-        text-align: center;
-        padding: 1rem 1rem;
-    }
-    .cards_item p span{
-        padding:0 1rem 0 1rem;
-        color: gray;
+        height: 52vh;
     }
     .cards_item .social-link{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin-top: 1rem;
+        margin-top: 0.8rem;
     }
-    .cards_item .social-link i{
-        color: gray;
-        font-weight: 600;
-        font-size: 0.8rem;
+    .img-div::after{
+        top:1.5%;
     }
-     .social-link i span{
-         font-weight: 100;
-         margin-left: 5px;
-         font-size: 0.8rem;
-     }
+
      /* ++++++++++ Women Quiz Section End +++++++++ */
     .container2{
-        width: 25%;
+        position: relative;
+        width: 100%;
         height: 100vh;
-        /* background: rgb(255, 0, 255); */
-      display: flex;
-      flex-wrap: wrap;
-      right: 0;
-      top: 15%;
-      position: relative;
-      margin-right: 6rem;
+        top: 4rem;
+      margin: 0;
+      padding: 0 1rem;
     }
+    
+.all_section{
+    min-width: 100%;
+     height: 28.5vh;
+   }
+   .all_section li{
+       border: 0.5px solid rgb(185, 185, 185);
+       padding: 0.6rem;
+   }
+   .all_section li a{
+       font-size: 1.3rem;
+   }
+   .all-btn{
+       width: 100%;
+       height: 31.5vh;
+       overflow-x: hidden;
+   }
+   .all-btn .btn{
+       width: auto;
+       padding:0.4rem 1.16rem;
+   }
+   .btn_1{
+       padding:0.4rem 1.15rem !important;
+   }
+   .btn_2{
+       padding:0.4rem 1.03rem !important;
+   }
+   .btn_3{
+       padding:0.4rem 1.31rem !important;
+   }
+   .btn_4{
+       padding:0.4rem 1.4rem !important;
+   }
+   .btn_5{
+       padding:0.4rem 1.56rem !important;
+   }
+   .btn_6{
+       padding:0.4rem 1.7rem !important;
+   }
+   .top-quiz{
+       width: 100%;
+   }
+   .top-quiz-card{
+       margin: 0.7rem 0;
+   width: 100%;
+   height: 14vh;
+   }
+   .all-btn_2{
+      position: relative;
+      top:4rem;
+      box-shadow: none;
+   }
+   .all-btn_2 .btn{
+     text-transform: capitalize;
+   }
+   .btn-1{ 
+      padding:0.4rem 0.8rem !important;
+   }
+   .btn-2{ 
+       padding:0.4rem 1.1rem !important;
+    }
+    .btn-3{ 
+       padding:0.4rem 0.8rem !important;
+    }
+    .btn-4{ 
+       padding:0.4rem 1.55rem !important;
+    }
+    .btn-5{ 
+       padding:0.4rem 2.2rem !important;
+    }
+   .all-btn_3{
+       margin: 0;
+       box-shadow: none;
+   }
+   /* *********************footer :start********************** */
+footer{
+    width: 100%;
+    position: relative;
+  bottom: -70rem; 
 }
+.footer_conatiner{
+    width: 100%;
+}
+.footer_link .link{
+    padding:0 0.8rem;
+    border-right: 1px solid grey;
+    margin-bottom: 500px;
+}
+.footer_conatiner a{
+    color: blue;
+}
+.footer_conatiner a:hover{
+    color: black;
+    text-decoration: underline !important;
+}
+}
+
+@media (min-width:500px) and (max-width:768px){
+    body{
+        font-size: 1rem;
+    }
+    .nav-logo{
+    margin-left: 1rem;
+    }
+    .navbar {
+        width: 100%;
+        overflow-x: hidden;
+        padding: 0rem;
+    }
+    .nav-menu {
+        display: flex;
+      padding: 0rem;
+    }
+    .nav-item {
+        margin-left: 2rem;
+    }
+    .nav-link{
+        font-size: 0.7rem;
+        color: #475569;
+    }
+    .sign{
+         margin-left: 2rem;
+    }
+
+    /* **************** */
+    h1{
+        margin-left: 0rem; 
+        font-size: 2rem;
+        text-align: center;
+      }
+    .container1{
+    width: 100%;
+      padding:0 0.3rem;
+      position: relative;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    .cards_item{
+        width:40%;
+        background-color: rgb(255, 255, 255);
+        margin: 1.1rem;
+        height: 48vh;
+    }
+    .cards_item .social-link{
+        margin-top: 0.8rem;
+    }
+    .img-div::after{
+        top:1.5%;
+    }
+
+     /* ++++++++++ Women Quiz Section End +++++++++ */
+    .container2{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        top: 4rem;
+      margin: 0;
+      padding: 0 1rem;
+    }
+    
+.all_section{
+    min-width: 100%;
+     height: 28.5vh;
+   }
+   .all_section li{
+       border: 0.5px solid rgb(185, 185, 185);
+       padding: 0.6rem;
+   }
+   .all_section li a{
+       font-size: 1.3rem;
+   }
+   .all-btn{
+       width: 100%;
+       height: 31.5vh;
+       overflow-x: hidden;
+   }
+   .all-btn .btn{
+       width: auto;
+       padding:0.4rem 1.16rem;
+   }
+   .btn_1{
+       padding:0.4rem 1.15rem !important;
+   }
+   .btn_2{
+       padding:0.4rem 1.03rem !important;
+   }
+   .btn_3{
+       padding:0.4rem 1.31rem !important;
+   }
+   .btn_4{
+       padding:0.4rem 1.4rem !important;
+   }
+   .btn_5{
+       padding:0.4rem 1.56rem !important;
+   }
+   .btn_6{
+       padding:0.4rem 1.7rem !important;
+   }
+   .top-quiz{
+       width: 100%;
+   }
+   .top-quiz-card{
+       margin: 0.7rem 0;
+   width: 100%;
+   height: 14vh;
+   }
+   .all-btn_2{
+      position: relative;
+      top:4rem;
+      box-shadow: none;
+   }
+   .all-btn_2 .btn{
+     text-transform: capitalize;
+   }
+   .btn-1{ 
+      padding:0.4rem 0.8rem !important;
+   }
+   .btn-2{ 
+       padding:0.4rem 1.1rem !important;
+    }
+    .btn-3{ 
+       padding:0.4rem 0.8rem !important;
+    }
+    .btn-4{ 
+       padding:0.4rem 1.55rem !important;
+    }
+    .btn-5{ 
+       padding:0.4rem 2.2rem !important;
+    }
+   .all-btn_3{
+       margin: 0;
+       box-shadow: none;
+   }
+   /* *********************footer :start********************** */
+footer{
+    width: 100%;
+    position: relative;
+  bottom: -70rem; 
+}
+.footer_conatiner{
+    width: 100%;
+}
+.footer_link .link{
+    padding:0 0.8rem;
+    border-right: 1px solid grey;
+    margin-bottom: 500px;
+}
+.footer_conatiner a{
+    color: blue;
+}
+.footer_conatiner a:hover{
+    color: black;
+    text-decoration: underline !important;
+}
+}  
+
+
+
+  
